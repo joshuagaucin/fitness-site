@@ -1,0 +1,110 @@
+.landing {
+  min-height: 100vh;
+  background: url("../images/hero3.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  color: #e65983;
+}
+
+.intro {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-text {
+  color: aliceblue;
+  font-family: "Heebo", sans-serif;
+  font-size: 2rem;
+}
+
+.slider {
+  background-color: #8dd3f3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  z-index: 3;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+}
+
+.about-us {
+  color: #080713;
+  background-color: #8dd3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+}
+
+.card-text {
+  color: black;
+  font-family: "Indie Flower", cursive;
+  font-size-adjust: 2rem;
+  font-size: 2rem;
+  background: rgba(248, 242, 242, 0.5);
+  padding: 1rem;
+  z-index: 1;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  contain: strict;
+  width: 700px;
+  height: 320px;
+}
+
+.card-img {
+  width: 20%;
+}
+/*# sourceMappingURL=index.css.map */

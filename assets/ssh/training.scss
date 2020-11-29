@@ -1,0 +1,134 @@
+.landing {
+    min-height: 100vh;
+    background: url("../images/training-hero.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+
+.about-training {
+    color: rgb(8, 7, 19);
+
+    background-color: rgb(141, 211, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    flex-direction: column;
+    width: 100vw;
+
+
+}
+
+.question {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: rgb(8, 7, 19);
+    font-size: 5rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, .5);
+}
+
+.answer-img {
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.answer-text {
+    padding: 2rem;
+    font-family: 'Indie Flower', cursive;
+    font-size-adjust: min($numbers: 2rem);
+    font-size: 2rem;
+
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.choose-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: rgb(8, 7, 19);
+    font-size: 5rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.fitness-categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 90%;
+    color: rgb(8, 7, 19);
+}
+
+
+
+.category {
+    display: flex;
+    flex-direction: column;
+    contain: strict;
+    align-items: center;
+
+    width: 250px;
+    height: 320px;
+
+
+}
+
+.category-title {
+    font-size: 1.7rem;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 420px;
+    border-radius: 25px;
+
+
+}
+
+#cardio {
+    background: url(../images/cardio.jpg);
+    background-size: cover;
+
+}
+
+#explosivity {
+    background: url(../images/explosivity.jpg);
+    background-size: cover;
+}
+
+#flexibility {
+    background: url(../images/flexibilty.jpg);
+    background-size: cover;
+}
+
+#strength {
+    background: url(../images/strength.jpg);
+    background-size: cover;
+}
+
+#body-weight {
+    background: url(../images/body-weight.jpg);
+    background-size: cover;
+}
+
+#hypertrophy {
+    background: url(../images/hypertrophy.jpg);
+    background-size: cover;
+}

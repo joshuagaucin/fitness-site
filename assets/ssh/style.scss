@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+
+    min-width: 100vw;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(141, 211, 243);
+}
+
+nav {
+
+    display: flex;
+    position: fixed;
+    align-self: center;
+    width: 100%;
+    background-color: rgb(8, 7, 19);
+    justify-content: space-between;
+    min-height: 10vh;
+    color: rgb(141, 211, 243);
+    align-items: center;
+    z-index: 2
+}
+
+a {
+    color: rgb(141, 211, 243);
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+
+    font-weight: bold;
+    list-style: none;
+
+}
+
+.nav-links li {
+    padding: 1rem;
+    font-size: 1.2rem;
+
+}
+
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    min-width: 100vw;
+    background-color: rgb(8, 7, 19);
+    color: rgb(141, 211, 243);
+}
+
+.line {
+    padding: 1rem;
+}

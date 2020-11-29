@@ -1,0 +1,159 @@
+.landing {
+  min-height: 100vh;
+  background: url("../images/training-hero.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+.about-training {
+  color: #080713;
+  background-color: #8dd3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+}
+
+.question {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #080713;
+  font-size: 5rem;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.answer-img {
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.answer-text {
+  padding: 2rem;
+  font-family: 'Indie Flower', cursive;
+  font-size-adjust: 2rem;
+  font-size: 2rem;
+}
+
+.choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose-text {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: #080713;
+  font-size: 5rem;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.fitness-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+  height: 90%;
+  color: #080713;
+}
+
+.category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  contain: strict;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 320px;
+}
+
+.category-title {
+  font-size: 1.7rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 350px;
+  height: 420px;
+  border-radius: 25px;
+}
+
+#cardio {
+  background: url(../images/cardio.jpg);
+  background-size: cover;
+}
+
+#explosivity {
+  background: url(../images/explosivity.jpg);
+  background-size: cover;
+}
+
+#flexibility {
+  background: url(../images/flexibilty.jpg);
+  background-size: cover;
+}
+
+#strength {
+  background: url(../images/strength.jpg);
+  background-size: cover;
+}
+
+#body-weight {
+  background: url(../images/body-weight.jpg);
+  background-size: cover;
+}
+
+#hypertrophy {
+  background: url(../images/hypertrophy.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=training.css.map */
