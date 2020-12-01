@@ -80,7 +80,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
+  width: 100vw;
 }
 
 .card-text {
@@ -94,7 +94,6 @@
   display: -ms-flexbox;
   display: flex;
   padding: 5rem;
-  width: 500px;
 }
 
 .card-img {
@@ -103,9 +102,6 @@
 }
 
 @media screen and (max-width: 350px) {
-  html {
-    width: 350px;
-  }
   .card {
     width: 90vw;
     -webkit-box-orient: vertical;

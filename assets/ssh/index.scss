@@ -70,7 +70,7 @@
     align-items: center;
 
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -86,7 +86,7 @@
 .card {
     display: flex;
     padding: 5rem;
-    width: 500px;
+    
 
 
 
@@ -99,10 +99,7 @@
 }
 
 @media screen and (max-width: 350px) {
-    html {
-        width: 350px;
-    }
-
+   
     .card {
 
         width: 90vw;

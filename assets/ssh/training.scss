@@ -105,36 +105,41 @@
 #cardio {
     background: url(../images/cardio.jpg);
     background-size: cover;
-
+    background-repeat: no-repeat;
 }
 
 #explosivity {
     background: url(../images/explosivity.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #flexibility {
     background: url(../images/flexibilty.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #strength {
     background: url(../images/strength.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #body-weight {
     background: url(../images/body-weight.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #hypertrophy {
     background: url(../images/hypertrophy.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 550px) {
-  
+
     .answer {
         flex-direction: column;
         flex-wrap: wrap;
