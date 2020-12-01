@@ -105,4 +105,32 @@
   border-radius: 25px;
   padding: 15px;
 }
+
+@media screen and (max-width: 550px) {
+  .video {
+    width: 400px;
+  }
+  .answer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .video {
+    width: 280px;
+  }
+  .answer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 /*# sourceMappingURL=eating.css.map */

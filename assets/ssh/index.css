@@ -65,8 +65,8 @@
 }
 
 .about-us {
-  color: #080713;
-  background-color: #8dd3f3;
+  color: black;
+  background-color: #fdfdfd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,22 +76,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100vw;
+  width: 100%;
 }
 
 .card-text {
-  color: black;
+  color: #131313;
   font-family: "Indie Flower", cursive;
-  font-size-adjust: 2rem;
-  font-size: 2rem;
-  background: rgba(248, 242, 242, 0.5);
-  padding: 1rem;
-  z-index: 1;
+  font-size: 2em;
 }
 
 .card {
@@ -99,12 +94,29 @@
   display: -ms-flexbox;
   display: flex;
   padding: 5rem;
-  contain: strict;
-  width: 700px;
-  height: 320px;
+  width: 500px;
 }
 
 .card-img {
   width: 20%;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    width: 350px;
+  }
+  .card {
+    width: 90vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .card-img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */

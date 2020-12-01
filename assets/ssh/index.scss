@@ -3,7 +3,7 @@
     background: url("../images/hero3.jpg");
     background-size: cover;
     padding: 0rem 5rem;
-    
+
 
 }
 
@@ -62,38 +62,56 @@
 }
 
 .about-us {
-    color: rgb(8, 7, 19);
-
-    background-color: rgb(141, 211, 243);
+    color: rgb(0, 0, 0);
+   
+    background-color: rgb(253, 253, 253);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
 
 }
 
 .card-text {
-    color: black;
+    color: rgb(19, 19, 19);
     font-family: "Indie Flower", cursive;
-    font-size-adjust: min($numbers: 2rem);
-    font-size: 2rem;
 
-    background: rgba(248, 242, 242, .5);
-    padding: 1rem;
-    z-index: 1;
+    font-size: 2em;
+
 
 }
 
 .card {
     display: flex;
     padding: 5rem;
-    contain: strict;
-    width: 700px;
-    height: 320px;
+    width: 500px;
+
+
+
 }
 
 .card-img {
     width: 20%;
+    min-height: 100%;
+    
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        width: 350px;
+    }
+
+    .card {
+
+        width: 90vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .card-img {
+        width: 100%
+    }
 }

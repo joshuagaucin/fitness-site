@@ -84,3 +84,33 @@
     border-radius: 25px;
     padding: 15px;
 }
+
+
+
+@media screen and (max-width: 550px) {
+    .video {
+        width: 400px;
+
+
+    }
+
+    .answer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .video {
+        width: 280px;
+
+
+    }
+
+    .answer {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
