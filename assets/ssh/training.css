@@ -7,7 +7,7 @@
 
 .about-training {
   color: #080713;
-  background-color: #8dd3f3;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +53,6 @@
 
 .answer-text {
   padding: 2rem;
-  font-family: 'Indie Flower', cursive;
   font-size-adjust: 2rem;
   font-size: 2rem;
 }
@@ -112,7 +111,6 @@
 
 .category-title {
   font-size: 1.7rem;
-  font-family: 'Indie Flower', cursive;
 }
 
 .img {

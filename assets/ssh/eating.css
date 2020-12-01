@@ -7,7 +7,7 @@
 
 .about-eating {
   color: #080713;
-  background-color: #8dd3f3;
+  background-color: #fafafa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,14 +53,13 @@
 
 .answer-text {
   padding: 2rem;
-  font-family: 'Indie Flower', cursive;
   font-size-adjust: 2rem;
   font-size: 2rem;
 }
 
 .video-container {
   color: #080713;
-  background-color: #8dd3f3;
+  background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,7 +95,6 @@
 
 .video-explanation-text {
   padding: 2rem;
-  font-family: 'Indie Flower', cursive;
   font-size-adjust: 1rem;
   font-size: 1rem;
 }
